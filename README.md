@@ -6,8 +6,11 @@
 
 CWC-LineChart
 Line chart based on Apache ECharts ( echarts.min.js ) for Siemens Simatic WinCC Unified
-
-### **1. INTERFACE**
+### **1. FUNCTIONS**
+- Tooltip
+- Save as image
+- One XY trend with 20 points
+### **2. INTERFACE**
 				"properties": {
 					"Smooth": {
 						"type": "boolean"
@@ -173,7 +176,8 @@ Line chart based on Apache ECharts ( echarts.min.js ) for Siemens Simatic WinCC 
 						"default": 1
 					}
 				}
-### **2. IMPLEMENTATION**
+### **3. IMPLEMENTATION**
 - Download latest release and add it to your Siemens TIA Portal project directory: "YOUR_PROJECT\UserFiles\CustomControls". Do not unzip the release.
 - Refresh from your TIA Portal UI -> Tools -> My controls -> Refresh
 - Drag and drop the custom web control to your project
+- Connect TIA Portal HMI tags to Custom Web Control interface from Properties -> Interface
