@@ -4,5 +4,9 @@
   <img width="350" src="assets/loco.png" alt="Icon" align="center">
 </p>
 
-# CWC-LineChart
+CWC-LineChart
 Line chart based on Apache ECharts ( echarts.min.js ) for Siemens Simatic WinCC Unified
+
+### **1. INTERFACE**
+
+### **2. IMPLEMENTATION**
