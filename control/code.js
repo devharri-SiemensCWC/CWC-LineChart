@@ -9,7 +9,7 @@ var myChart = new Chart(dom,
     type: 'line',
     data: {
       datasets: [{
-        label: 'Force',
+        label: 'Value',
         data: [],
         borderColor: 'blue',
         fill: false,
