@@ -1,0 +1,191 @@
+{
+	"$schema": "./CWC_manifest_Schema.json",
+	"mver": "1.2.0",
+	"control": {
+		"identity": {
+			"name": "TrendXY",
+			"version": "3.0.0",
+			"displayname": "TrendXY",
+			"icon": "./assets/logo.ico",
+			"type": "guid://FA3C91B2-69F3-4775-8165-D905CFD02834",
+			"start": "./control/index.html"
+		},
+		"metadata": {
+			"author": "Harri Honkanen",
+			"keywords": [
+				"TrendXY",
+				"TrendView"
+			]
+		},
+		"contracts": {
+			"api": {
+				"methods": {},
+				"events": {},
+				"properties": {
+					"XValue1": {
+						"type": "number",
+						"default": 100
+					},
+					"XValue2": {
+						"type": "number",
+						"default": 200
+					},
+					"XValue3": {
+						"type": "number",
+						"default": 300
+					},
+					"XValue4": {
+						"type": "number",
+						"default": 400
+					},
+					"XValue5": {
+						"type": "number",
+						"default": 500
+					},
+					"XValue6": {
+						"type": "number",
+						"default": 600
+					},
+					"XValue7": {
+						"type": "number",
+						"default": 700
+					},
+					"XValue8": {
+						"type": "number",
+						"default": 800
+					},
+					"XValue9": {
+						"type": "number",
+						"default": 900
+					},
+					"XValue10": {
+						"type": "number",
+						"default": 1000
+					},
+					"XValue11": {
+						"type": "number",
+						"default": 1100
+					},
+					"XValue12": {
+						"type": "number",
+						"default": 1200
+					},
+					"XValue13": {
+						"type": "number",
+						"default": 1300
+					},
+					"XValue14": {
+						"type": "number",
+						"default": 1400
+					},
+					"XValue15": {
+						"type": "number",
+						"default": 1500
+					},
+					"XValue16": {
+						"type": "number",
+						"default": 1600
+					},
+					"XValue17": {
+						"type": "number",
+						"default": 1700
+					},
+					"XValue18": {
+						"type": "number",
+						"default": 1800
+					},
+					"XValue19": {
+						"type": "number",
+						"default": 1900
+					},
+					"XValue20": {
+						"type": "number",
+						"default": 2000
+					},
+					"YValue1": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue2": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue3": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue4": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue5": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue6": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue7": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue8": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue9": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue10": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue11": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue12": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue13": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue14": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue15": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue16": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue17": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue18": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue19": {
+						"type": "number",
+						"default": 5000
+					},
+					"YValue20": {
+						"type": "number",
+						"default": 5000
+					}
+				}
+			}
+		},
+		"types": {
+		}
+	}
+}
