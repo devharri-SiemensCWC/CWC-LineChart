@@ -5,7 +5,15 @@ Line chart based on Chart.js ( Chart.min.js ) for Siemens Simatic WinCC Unified
 ### **1. FUNCTIONS**
 - Tooltip
 - One XY trend with 20 points
-### **2. INTERFACE**
+
+### **2. IMPLEMENTATION**
+- Download latest release and add it to your Siemens TIA Portal project directory: "YOUR_PROJECT\UserFiles\CustomControls". Do not unzip the release.
+- Remember to add curly braces for the folder name, for example "{FA3C91B2-69F3-4775-8165-D905CFD02834}"
+- Refresh from your TIA Portal UI -> Tools -> My controls -> Refresh
+- Drag and drop the custom web control to your project
+- Connect TIA Portal HMI tags to Custom Web Control interface from Properties -> Interface
+
+### **3. INTERFACE**
 				"properties": {
 					"Smooth": {
 						"type": "boolean"
@@ -171,9 +179,3 @@ Line chart based on Chart.js ( Chart.min.js ) for Siemens Simatic WinCC Unified
 						"default": 1
 					}
 				}
-### **3. IMPLEMENTATION**
-- Download latest release and add it to your Siemens TIA Portal project directory: "YOUR_PROJECT\UserFiles\CustomControls". Do not unzip the release.
-- Remember to add curly braces for the folder name, for example "{FA3C91B2-69F3-4775-8165-D905CFD02834}"
-- Refresh from your TIA Portal UI -> Tools -> My controls -> Refresh
-- Drag and drop the custom web control to your project
-- Connect TIA Portal HMI tags to Custom Web Control interface from Properties -> Interface
