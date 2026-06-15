@@ -12,6 +12,7 @@ Line chart based on Chart.js ( Chart.min.js ) for Siemens Simatic WinCC Unified
 - Refresh from your TIA Portal UI -> Tools -> My controls -> Refresh
 - Drag and drop the custom web control to your project
 - Connect TIA Portal HMI tags to Custom Web Control interface from Properties -> Interface
+- To get dragging working properly, remember to uncheck "read-only" field from every XY tag settings inside the TIA Portal
 
 ### **3. INTERFACE**
 				"properties": {
