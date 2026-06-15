@@ -1,7 +1,8 @@
 <h1 align="center" style="margin-top: 0px;">Line chart CWC for WinCC Unified</h1>
 
 CWC-LineChart
-Line chart based on Chart.js ( Chart.min.js ) for Siemens Simatic WinCC Unified
+Custom Web Control line chart based on Chart.js ( Chart.min.js ) for Siemens Simatic WinCC Unified.
+Custom Web Control is a new approach to build interactive HTML5 objects for Siemens WinCC Unified environment.
 ### **1. FUNCTIONS**
 - Tooltip
 - One XY trend with 20 points
