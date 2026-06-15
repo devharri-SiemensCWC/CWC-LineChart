@@ -24,7 +24,7 @@ var myChart = new Chart(dom,
           type: 'linear',
           position: 'bottom',
           title: {
-            display: true,
+            display: false,
             text: 'mm'
           }
         },
@@ -33,7 +33,7 @@ var myChart = new Chart(dom,
           beginAtZero: true,
           suggestedMax: 2000,
           title: {
-            display: true,
+            display: false,
             text: 'N / m'
           }
         }
