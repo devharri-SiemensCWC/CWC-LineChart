@@ -6,6 +6,8 @@ Custom Web Control is a new approach to build interactive HTML5 objects for Siem
 ### **1. FUNCTIONS**
 - Tooltip
 - One XY trend with 20 points
+- Drag Y axis up and down
+- Zero value X axis not rendered
 
 ### **2. IMPLEMENTATION**
 - Download latest release and add it to your Siemens TIA Portal project directory: "<YOUR_PROJECT>\UserFiles\CustomControls". Do not unzip the release.
