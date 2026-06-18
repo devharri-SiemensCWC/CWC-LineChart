@@ -41,10 +41,11 @@ var myChart = new Chart(dom,
       plugins: {
         dragData: {
           round: 1,
-          dragX: false, // restrict to vertical movement
+          dragX: true, // restrict to vertical movement
           onDragEnd: function (e, datasetIndex, index, value) {
             // Write back to WinCC / PLC
             WebCC.Properties['YValue' + (index + 1)] = value.y;
+            WebCC.Properties['XValue' + (index + 1)] = value.x;
           }
         }
       }
