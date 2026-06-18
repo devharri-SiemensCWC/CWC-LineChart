@@ -22,6 +22,8 @@ var myChart = new Chart(dom,
       scales: {
         x: {
           type: 'linear',
+          beginAtZero: true,
+          suggestedMax: 3001,
           position: 'bottom',
           title: {
             display: false,
@@ -444,9 +446,12 @@ function buildData() {
   var dataX = [];
   var dataY = [];
   for (let i = 0; i < TrendValueX.length; i++) {
-    // Stop if X is zero (and ignore rest)
+    if (i > 0)
+    {
+          // Stop if X is zero (and ignore rest)
     if (TrendValueX[i] === 0) {
       break;
+    }
     }
     // Only push valid pairs
     dataX.push(TrendValueX[i]);
